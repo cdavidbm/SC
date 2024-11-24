@@ -1,19 +1,8 @@
-Aquí tienes el contenido completo y unificado del archivo `README.md` para 
-tu tutorial de SuperCollider. Simplemente copia y pega el código en tu 
-archivo:
+# Notas de SuperCollider
 
-```markdown
-# Tutorial Completo de SuperCollider
-
-## Guía Exhaustiva de Programación de Audio
-
-Este tutorial cubre los conceptos básicos y avanzados de SuperCollider 
-para la síntesis de audio, control de parámetros y procesamiento de 
-señales.
+## Guía de ProxySpace
 
 ---
-
-## Índice
 1. [Configuración Inicial](#configuración-inicial)
 2. [Reproducción y Monitoreo Básico](#reproducción-y-monitoreo-básico)
 3. [Control de Parámetros](#control-de-parámetros)
@@ -26,7 +15,6 @@ señales.
 10. [Espacios Múltiples](#espacios-múltiples)
 11. [Grabación](#grabación)
 12. [Limpieza y Finalización](#limpieza-y-finalización)
-
 ---
 
 ## Configuración Inicial
