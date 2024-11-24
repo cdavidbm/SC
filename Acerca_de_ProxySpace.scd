@@ -10,6 +10,7 @@
 (
 s.boot;                    // Inicia el servidor de audio de SuperCollider
 p = ProxySpace.push(s);    // Crea y activa un nuevo espacio de trabajo (ProxySpace)
+p.fadeTime = 3;            // CrossFade
 )
 
 // SECCIÓN 2: REPRODUCCIÓN Y MONITOREO BÁSICO
@@ -17,10 +18,11 @@ p = ProxySpace.push(s);    // Crea y activa un nuevo espacio de trabajo (ProxySp
 
 // 2.1 Configuración de salida básica
 ~out.play;    // Activa la reproducción en los buses de hardware
+~out.stop(4);
 
 // 2.2 Ejemplos básicos de síntesis
 // Oscilador sinusoidal simple en estéreo
-~out = { SinOsc.ar([400, 408] * 0.8, 0, 0.2) };
+~out = { SinOsc.ar([400, 445] * 0.8, 0, 0.2) };
 // [400, 408]: frecuencias ligeramente diferentes para cada canal
 // 0.8: factor de multiplicación para bajar la frecuencia
 // 0.2: amplitud
